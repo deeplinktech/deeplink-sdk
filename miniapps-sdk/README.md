@@ -5,6 +5,9 @@
 ## 1.下载小程序sdk包；
 下载地址： https://github.com/deeplinktech/deeplink-sdk
 
+或者从百度网盘 上获取微信小程序 SDK 源码；
+链接: https://pan.baidu.com/s/1EdDt82qqLpu0uxtSinAAmA 提取码: 6ryy 
+
 ## 2.将sdk文件dp.min.js 和配置文件dp_config.js文件放入小程序项目中，建议放到utils文件夹；其中，dp_config.js配置如下：
 
 ```js
