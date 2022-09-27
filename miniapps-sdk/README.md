@@ -3,6 +3,7 @@
 接入步骤
 
 ## 1.下载小程序sdk包；
+下载地址： https://github.com/deeplinktech/deeplink-sdk
 
 ## 2.将sdk文件dp.min.js 和配置文件dp_config.js文件放入小程序项目中，建议放到utils文件夹；其中，dp_config.js配置如下：
 
@@ -14,7 +15,7 @@ var conf = {
   appid: 'xxxxx',
   // 分析数据接收地址
   // server_url: 'https://xxxxx.xxxx.xxxx/sa.gif?project=default&token=27eeee',
-  server_url: 'https://www.deeplink.com/sa.gif',
+  server_url: 'server_url: 'https://receive-sdk-day-data-formal-dyefxaabxx.cn-hangzhou.fcapp.run/sa.gif',
   // 自定义渠道追踪参数，如 source_channel: ["custom_param"],非必填
   source_channel:['utm_source'],
   //默认使用队列发数据时候，两条数据发送间的最大间隔
@@ -79,5 +80,5 @@ getApp().dpSdk.registerApp({
 
 ## 6、验证测试，当在开启show_log的条件下，微信开发者工具打印出如下日志，表示配置成功。
 <div align=center>
-    <img src="../img/小程序sdk接入成功显示.png" alt="" width="650">
+    <img src="./img/miniapps-success.png" alt="" width="650">
 </div>
