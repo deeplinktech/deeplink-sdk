@@ -1,6 +1,7 @@
 # 小程序SDK接入方法
 
-接入步骤
+## 接入步骤:
+
 
 ## 1.下载小程序sdk包；
 下载地址： https://github.com/deeplinktech/deeplink-sdk
