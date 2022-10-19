@@ -1,9 +1,12 @@
 # H5 SDK接入方法
 
+
 接入步骤
 
 1、从 百度网盘上获取微信小程序 SDK 源码；
 链接: https://pan.baidu.com/s/1DmteU2Uoh6kFS2zJntoHiw 提取码: gyx5 
+
+或从github下载：https://github.com/deeplinktech/deeplink-sdk/tree/main/h5-sdk/utils
 
 2、将 sdk文件dp.min.js 和配置文件dp_config.js文件放入h5项目中，建议放到独立于业务的文件夹；
 其中，dp_config.js配置如下（config文件会引入sdk文件）：
